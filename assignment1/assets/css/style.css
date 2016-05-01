@@ -200,3 +200,133 @@ hr{
 	top: -100px;
 	z-index: 2;
 }
+
+@media screen and (max-width: 980px) {
+	.myName {
+		margin-left: 110px;
+	}
+
+	#topBar {
+		margin-right: 95px;
+	}
+
+	#content {
+		width: 420px;
+	}
+
+	#profile {
+		width: 260px;
+		float: none;
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	#theMiddle {
+		width: 730px;
+	}
+
+	.portfolioPic {
+		width: 360px;
+	}
+
+	.portPicLabel {
+		width: 360px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.myName {
+		margin-left: 20px;
+	}
+
+	#topBar {
+		margin-right: 20px;
+	}
+
+	#content {
+		width: 730px;
+		float: none;
+	}
+
+	#profile {
+		width: 330px;
+		float: left;
+		margin: 0px 20px 20px 0px;
+	}
+
+	#theMiddle {
+		width: 730px;
+	}
+
+	#connect {
+		float: none;
+		width: 730px;
+	}
+
+	.portfolioPic {
+		width: 310px;
+	}
+
+	.portPicLabel {
+		width: 310px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	header {
+		position: static;
+	}
+	.myName {
+		width: 600px;
+		margin: 0px;
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+		float: none;
+	}
+
+	#topBar {
+		margin: 0px;
+		text-align: center;
+		float: none;
+	}
+
+	.topLinks {
+		padding: 40px;
+	}
+
+	#content {
+		width: 600px;
+		float: none;
+	}
+
+	#profile {
+		width: 500px;
+		float: none;
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	#theMiddle {
+		width: 600px;
+	}
+
+	#connect {
+		float: none;
+		width: 600px;
+	}
+
+	.work {
+		height: 540px;
+	}
+
+	.portfolioPic {
+		width: 540px;
+	}
+
+	.portPicLabel {
+		width: 540px;
+	}
+}
