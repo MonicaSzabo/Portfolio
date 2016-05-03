@@ -48,7 +48,7 @@ p {
 
 /* Links */
 a {
-    color: #34FFEC;
+    color: #7CB8AF;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -60,7 +60,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color: #4CBDFF;
     text-decoration: none;
     outline: 0;
 }
@@ -95,7 +95,7 @@ a:after {
 }
 
 .navbar-inverse {
-	background-color: #5E9834;
+	background-color: #227539;
 	border-color: #16a085;
 }
 
@@ -122,7 +122,7 @@ a:after {
 }
 
 .progress-bar-theme {
-	background-color: #5E9834;
+	background-color: #32AD54;
 }
 
 
