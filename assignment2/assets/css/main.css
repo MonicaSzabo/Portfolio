@@ -126,7 +126,6 @@ a:after {
 }
 
 .btn-success {
-  color: #ffffff;
   background-color: #962757;
   border-color: #D13779;
 }
@@ -136,7 +135,6 @@ a:after {
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
-  color: #ffffff;
   background-color: #611938;
   border-color: #7A2047;
 }
