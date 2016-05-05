@@ -125,6 +125,22 @@ a:after {
 	background-color: #962757;
 }
 
+.btn-success {
+  color: #ffffff;
+  background-color: #962757;
+  border-color: #D13779;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #611938;
+  border-color: #7A2047;
+}
+
 
 /* Helpers */
 
