@@ -125,9 +125,31 @@ a:after {
 	background-color: #962757;
 }
 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes pulse {
+    0%   {background-color: #330D1E; }
+    25%  {background-color: #401125; }
+    50%  {background-color: #4F152E; }
+    75%  {background-color: #4F152E; }
+    100% {background-color: #691B3D; }
+}
+
+/* Standard syntax */
+@keyframes pulse {
+    0%   {background-color: #330D1E; }
+    25%  {background-color: #401125; }
+    50%  {background-color: #4F152E; }
+    75%  {background-color: #4F152E; }
+    100% {background-color: #691B3D; }
+}
+
 .btn-success {
   background-color: #962757;
   border-color: #D13779;
+  animation-name: pulse;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .btn-success:hover,
